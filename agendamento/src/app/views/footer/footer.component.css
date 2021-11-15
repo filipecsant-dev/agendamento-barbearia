@@ -1,0 +1,13 @@
+.toolbar-main{
+    background-color: #1b1d21;
+    color: #fff;
+    font-size: 0.9rem;
+    bottom: 0;
+    position: absolute;
+}
+
+.direitos{
+    font-size: 0.7rem;
+    width: 100%;
+    text-align: right;
+}
