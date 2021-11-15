@@ -1,0 +1,17 @@
+.toolbar-main{
+    position: relative;
+    background-color: #1b1d21;
+}
+
+.toolbar-sub{
+    color: #fff;
+    font-size: 14px;
+}
+
+.example-icon {
+    padding: 0 14px;
+}
+
+  .example-spacer {
+    flex: 1 1 auto;
+}
