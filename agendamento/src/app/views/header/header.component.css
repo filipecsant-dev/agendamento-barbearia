@@ -3,6 +3,20 @@
     background-color: #1b1d21;
 }
 
+.toolbar-img{
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(https://www.sinetrosv.org.br/wp-content/uploads//2020/06/sinestrov-barbearia-banner-home-site-1920x480.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
 .toolbar-sub{
     color: #fff;
     font-size: 14px;
@@ -12,6 +26,25 @@
     padding: 0 14px;
 }
 
-  .example-spacer {
+.example-spacer {
     flex: 1 1 auto;
+}
+
+.container-info{
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.estabelecimento{
+    font-size: 1.5rem;
+    
+}
+
+.endereco{
+    font-size: 0.8rem;
+}
+
+.status{
+    font-size: 0.8rem;
+    font-weight: bold;
 }
