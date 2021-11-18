@@ -1,15 +1,84 @@
 <div class="container-page">
     <div class="container-main">
+
+<!-- ------------------------------------------------------ container left ------------------------------------------- -->
+
         <div class="body left" width="30%">
             <div class="info">
-                <br /><br /><br /><br />Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual aponta para a melhoria das posturas dos órgãos dirigentes com relação às suas atribuições.<br /><br /><br /><br /><br /><br /><br />
+                <h1>Serviços</h1>
+                <div class="servicos-list">
+                    <app-servicos 
+                    *ngFor="let servico of servicos"
+                    [service]="servico.service"
+                    [value]="servico.value"
+                    [img]="servico.img"
+                    ></app-servicos>
+                </div>
+
+                
+                <br /><br />
+                <h1>Nosso trabalho</h1>
+                <div class="trabalho">
+                    <img class="img" width="350px" height="350px" src="https://d2zdpiztbgorvt.cloudfront.net/region1/br/48295/inspiration/b12e785f17df4240b8b484f40b21a2-barbearia-cavalcante-inspiration-c70a45d53d6444cdb8e8ca7cf5caa4-booksy.jpeg?size=360x360">
+                
+                    <div class="container-img">
+                        <img class="img margin-left margin-bottom" width="150px" height="170px" src="https://d2zdpiztbgorvt.cloudfront.net/region1/br/48295/inspiration/eeee5c41f4b44c07a3f161c9bb42bd-barbearia-cavalcante-inspiration-6046dfbb4e064a3c81b35082c9225b-booksy.jpeg?size=360x360">
+                        <img class="img margin-left margin-bottom" width="150px" height="170px" src="https://d2zdpiztbgorvt.cloudfront.net/region1/br/48295/inspiration/a28302ace21e45709f57a538af6669-barbearia-cavalcante-inspiration-a61250580c914e47a5f0f60785f671-booksy.jpeg?size=360x360">
+                        
+                        <br />
+                        <img class="img margin-left" width="150px" height="170px" src="https://d2zdpiztbgorvt.cloudfront.net/region1/br/48295/inspiration/3833a7f404e544a7967b37adf155c4-barbearia-cavalcante-inspiration-d1cd997855f3452fb37498dae23fb8-booksy.jpeg?size=360x360">
+                        <img class="img margin-left" width="150px" height="170px" src="https://d159pl2qjrokxm.cloudfront.net/br/48295/4ee8041eb2ed4819a2421f090f18e186-Barbearia-Cavalcante-inspiration.PNG?size=360x360">
+                    </div>
+                </div>
             </div>
         </div>
+
+
+        
             
+<!-- ---------------------------------------------------- container righ ------------------------------------------ -->
+
             <div class="center"></div>
         <div class="body righ" width="60%">
             <div class="info">
-                <br /><br /><br /><br />Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a necessidade de renovação processual aponta para a melhoria das posturas dos órgãos dirigentes com relação às suas atribuições.<br /><br /><br /><br /><br /><br /><br />
+                <p class="titlesmall">COMO CHEGAR?</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7784.355053355527!2d-38.32776797316142!3d-12.701833347839031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71669da72466043%3A0x2c21021fe6bd2c28!2sCentro%2C%20Cama%C3%A7ari%20-%20BA!5e0!3m2!1spt-BR!2sbr!4v1637017386953!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                
+                <br /><br />
+                <p class="titlesmall">SOBRE NÓS:</p>
+                <p class="textsmall">A Barbearia Peniel foi criada pelo sonho de Welson Almeida de fazer a diferença e mostrar o seu talento. Criada em 2017, a barbearia atende os públicos Adulto e infantil com cortes modernos e seguind</p>
+      
+                <br />
+                <p class="titlesmall">EQUIPE:</p>
+
+                <br />
+                <p class="titlesmall">CONTATO:</p>
+                <mat-icon style="color: #727272; float: left;">phone_iphone</mat-icon> <span class="textsmall" style="margin-left:2rem; margin-top: 3px;">(71) 98340-9647</span> <span style="float: right; margin-top: -6px;"><a mat-stroked-button href="tel:(71) 98340-9647">Link</a></span>
+
+                <br /><br />
+                <p class="titlesmall">HORÁRIO DE FUNCIONAMENTO:</p>
+                <div class="textsmall" style="width: 100%;">
+                    <span>Segunda-feira</span><span style="float: right;">9:00 - 21:00</span>
+                    <br /><br />
+                    <span>Terça-feira</span><span style="float: right;">9:00 - 21:00</span>
+                    <br /><br />
+                    <span>Quarta-feira</span><span style="float: right;">9:00 - 21:00</span>
+                    <br /><br />
+                    <span>Quinta-feira</span><span style="float: right;">9:00 - 21:00</span>
+                    <br /><br />
+                    <span>Sexta-feira</span><span style="float: right;">9:00 - 21:00</span>
+                    <br /><br />
+                    <span>Sábado</span><span style="float: right;">9:00 - 21:00</span>
+                    <br /><br />
+                    <span>Domingo</span><span style="float: right;">9:00 - 12:00</span>
+                </div>
+
+                <br />
+                <p class="titlesmall">REDES SOCIAIS:</p>
+                <div style="width: 100%; text-align: center;">
+                    <mat-icon class="example-icon" aria-hidden="false" aria-label="Instagram" width="50px" height="100px">instagram</mat-icon>
+                    <mat-icon class="example-icon" aria-hidden="false" aria-label="Facebook">facebook</mat-icon>
+                </div>
             </div>
         </div>
     </div>

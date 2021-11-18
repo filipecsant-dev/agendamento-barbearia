@@ -7,20 +7,17 @@
 }
 
 .body{
-    background-color: #fff;
     width: 100%;
     border-radius: 4px;
 }
 
 .left{
-    width: 58%;
+    width: 63%;
 }
 
-.center{
-    width: 5%;
-}
 
 .righ{
+    background-color: #fff;
     width: 33%;
 }
 
@@ -28,4 +25,47 @@
     display: block;
     top:0;
     margin: 15px;
+}
+
+.titlesmall{
+    font-size: 13px;
+    font-weight: bold;
+    color: #383734;
+}
+
+.textsmall{
+    font-size: 13px;
+    text-align: justify;
+    color: #383734;
+}
+
+h1{
+    font-size: 20px;
+    color: #383734;
+    font-weight: bold;
+}
+
+.img{
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+}
+
+.trabalho{
+    display: flex;
+}
+
+.margin-left {
+    margin-left:10px;
+}
+
+.margin-bottom{
+    margin-bottom: 3px;
+}
+
+.servicos-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }

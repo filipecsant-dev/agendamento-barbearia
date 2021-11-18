@@ -1,0 +1,36 @@
+.servico-card{
+ height: 100%;
+ position: relative;
+}
+
+.img-card{
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+
+.info-service{
+    position: absolute;
+    margin-top: -72px;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.back{
+    background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  );
+  height: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+}
+
+.small{
+    font-size: 12px;
+}
